@@ -1,0 +1,100 @@
+body{
+    background-color: #1E1E2E;
+    font-family: 'Fira Code', monospace;
+}
+
+h1{
+    color: #C3E88D;
+}
+
+.secao_agregador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.local_foto img{
+    border-radius: 15px;
+}
+
+.local_nome{
+    text-align: center;
+    margin: 15px 0;
+    width: 82%;
+}
+
+.local_botoes{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+}
+
+.local_botoes a {
+    background-color: #2E3440;
+    color: #8FBCBB;
+    height: 55px;
+    border-radius: 15px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* font-size: 30px; */
+    font-weight: bold;
+}
+
+.local_botoes a :hover{
+    opacity: 0.2;
+}
+
+.local_email {
+    width: 82%;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media(max-width: 700px){
+    h1{
+        font-size: 25px;
+    }
+
+    .local_botoes a {
+        font-size: 23px;
+    }
+
+}
+
+@media(max-width: 531px){
+    h1{
+        font-size: 18.5px;
+    }
+
+    .local_botoes a {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 400px){
+    h1{
+        font-size: 15.5px;
+    }
+
+    .local_botoes a {
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width: 335px){
+    h1 {
+        font-size: 12.5px;
+    }
+
+    .local_email{
+        font-size: 12px;
+    }
+}
